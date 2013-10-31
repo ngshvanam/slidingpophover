@@ -1,7 +1,7 @@
 {
-    "name": "ajax-gallery",
-    "title": "jQuery ajax galley",
-    "description": "jQuery plugin for loading gallery images progressively when the scolbar hits bottom of the pageS.",
+    "name": "slidingpophover",
+    "title": "jQuery Sliding Pop Hover",
+    "description": "jQuery plugin Sliding a div over other div on mouse hover.",
     "demo" : "http://jq-plugins.herokuapp.com/slidinpophover.html",
     "keywords": [
         "slider",
