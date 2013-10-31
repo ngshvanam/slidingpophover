@@ -9,10 +9,10 @@
 	"hover",
 	"blur"
     ],
-    "version": "1.0.7",
+    "version": "1.0.0",
     "author": {
         "name": "Nagesh Vanam",
-        "url": "https://github.com/ngshvanam/ajax-gallery/blob/master/README.md"
+        "url": "https://github.com/ngshvanam/slidingpophover/blob/master/README.md"
 
     },
     "maintainers": [
@@ -27,10 +27,10 @@
             "url": "https://github.com/jquery/jquery-color/blob/2.1.2/MIT-LICENSE.txt"
         }
     ],
-    "bugs": "https://github.com/ngshvanam/ajax-gallery/issues",
-    "homepage": "https://github.com/ngshvanam/ajax-gallery/blob/master/README.md",
-    "docs": "https://github.com/ngshvanam/ajax-gallery/blob/master/README.md",
-    "download": "https://github.com/ngshvanam/ajax-gallery",
+    "bugs": "https://github.com/ngshvanam/slidingpophover/issues",
+    "homepage": "https://github.com/ngshvanam/slidingpophover/blob/master/README.md",
+    "docs": "https://github.com/ngshvanam/slidingpophover/blob/master/README.md",
+    "download": "https://github.com/ngshvanam/slidingpophover",
     "dependencies": {
         "jquery": ">=1.5"
     }
