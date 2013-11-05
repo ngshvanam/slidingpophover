@@ -7,10 +7,9 @@
         "slider",
         "pop",
 	"hover",
-	"blur",
-	"jQuery Slider"
+	"blur"
     ],
-    "version": "1.0.3",
+    "version": "1.0.4",
     "author": {
         "name": "Nagesh Vanam",
         "url": "https://github.com/ngshvanam/slidingpophover/blob/master/README.md"
