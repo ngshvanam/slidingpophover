@@ -14,10 +14,9 @@
 		$(this).css({"overflow": "hidden", "width": width+"px", "height": height+"px"});
 		$("div:nth-child(1)", this).css("position","relative");
 		$("div:nth-child(2)", this).css("position","relative");
-
-		$("div:nth-child(2)", this).css("width", width);
-		$("div:nth-child(2)", this).css("height", height);
-
+		
+		$("div:nth-child(2)", this).css({"width": width+"px", "height": height+"px"});
+	
 		slideEvent(this);
 
 	}
