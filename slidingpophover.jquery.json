@@ -9,7 +9,7 @@
 	"hover",
 	"blur"
     ],
-    "version": "1.0.4",
+    "version": "1.0.5",
     "author": {
         "name": "Nagesh Vanam",
         "url": "https://github.com/ngshvanam/slidingpophover/blob/master/README.md"
@@ -30,7 +30,7 @@
     "bugs": "https://github.com/ngshvanam/slidingpophover/issues",
     "homepage": "https://github.com/ngshvanam/slidingpophover/blob/master/README.md",
     "docs": "https://github.com/ngshvanam/slidingpophover/blob/master/README.md",
-    "download": "https://github.com/ngshvanam/slidingpophover",
+    "download": "https://github.com/ngshvanam/slidingpophover/archive/master.zip",
     "dependencies": {
         "jquery": ">=1.5"
     }
