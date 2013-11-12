@@ -8,40 +8,39 @@
         
 		settings = $.extend({duration:200},options);
 
-		height = $("div:first",this).height();
-		width = $("div:first",this).width();
+		height = $(">:first", this).height();
+		width = $(">:first", this).width();
 
 		$(this).css({"overflow": "hidden", "width": width+"px", "height": height+"px"});
-		$("div:nth-child(1)", this).css("position","relative");
-		$("div:nth-child(2)", this).css("position","relative");
+		$(">:nth-child(1)", this).css("position","relative");
+		$(">:nth-child(2)", this).css("position","relative");
 		
-		$("div:nth-child(2)", this).css({"width": width+"px", "height": height+"px"});
+		$(">:nth-child(2)", this).css({"width": width+"px", "height": height+"px"});
 	
 		slideEvent(this);
-
+		return this;
 	}
 
 	function slideEvent(displayItem)
 	{
 		$(displayItem).mouseenter(function(){
-			$("div:nth-child(1)", displayItem).animate({
+			$(">:nth-child(1)", displayItem).animate({
 				 top: '-'+height+'px'
 			}, { duration: settings.duration, queue: false });
 
-			$("div:nth-child(2)", displayItem).animate({
+			$(">:nth-child(2)", displayItem).animate({
 				 top: '-'+height+'px'
 			}, { duration: settings.duration, queue: false });
 		});
 
 		$(displayItem).mouseleave(function(){
-			$("div:nth-child(1)", displayItem).animate({
+			$(">:nth-child(1)", displayItem).animate({
 				top: '0px'
 			}, { duration: settings.duration, queue: false });
 
-			$("div:nth-child(2)", displayItem).animate({
+			$(">:nth-child(2)", displayItem).animate({
 				top: '0px'
 			}, { duration: settings.duration, queue: false });
 		});
 	}
-
 }(jQuery))
