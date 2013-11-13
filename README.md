@@ -16,7 +16,7 @@ $(document).ready(function(){
 	<img src="/Images/Capture52.PNG"></img>
   </div>
   <div style=" background-color:gray;">
-	Bkjhkjhk
+	<p>Place your hidden template here.</p>
   </div>
 </div>
 ```
